@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register - TechAstra 3.0</title>
+  <link rel="stylesheet" href="register.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">TECHASTRA 3.0</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="index.html">About</a>
+      <a href="index.html">Events</a>
+      <a href="register.html">Register</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Registration Section -->
+  <section class="registration-section">
+    <div class="container">
+      <div class="registration-header">
+        <h1 class="techastra-title">JOIN THE AVENGERS</h1>
+        <p class="subtitle">Register for TechAstra 3.0 - Where Innovation Meets Excellence</p>
+      </div>
+
+      <!-- Info Sections Side by Side -->
+      <div class="info-container">
+        <div class="info-section left-section">
+          <div class="info-card large">
+            <div class="stone-orb"></div>
+            <h3>Event Details</h3>
+            <div class="details-grid">
+              <div class="detail-item">
+                <span class="detail-icon">📅</span>
+                <div>
+                  <strong>Date</strong>
+                  <p>March 17-18, 2026</p>
+                </div>
+              </div>
+              <div class="detail-item">
+                <span class="detail-icon">📍</span>
+                <div>
+                  <strong>Venue</strong>
+                  <p>Campus Grounds</p>
+                </div>
+              </div>
+              <div class="detail-item">
+                <span class="detail-icon">💰</span>
+                <div>
+                  <strong>Registration Fee</strong>
+                  <p>₹300 per participant</p>
+                </div>
+              </div>
+              <div class="detail-item">
+                <span class="detail-icon">⏰</span>
+                <div>
+                  <strong>Duration</strong>
+                  <p>2 Days of Tech Excellence</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="perks-section">
+              <h4>What's Included:</h4>
+              <ul>
+                <li>🎓 Learn from industry experts</li>
+                <li>🤝 Network with 500+ tech enthusiasts</li>
+                <li>📜 Official participation certificates</li>
+                <li>🍕 Free meals and refreshments</li>
+                <li>💻 Access to premium workshops</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="info-section right-section">
+          <div class="info-card large">
+            <div class="stone-orb"></div>
+            <h3>Important Information</h3>
+            
+            <div class="info-block">
+              <h4>Registration Guidelines:</h4>
+              <ul>
+                <li>• Valid student ID required for verification</li>
+                <li>• Teams can have 2-6 members maximum</li>
+                <li>• Individual participation also welcome</li>
+                <li>• Registration closes on March 10, 2026</li>
+                <li>• Limited seats available - First come, first served</li>
+              </ul>
+            </div>
+
+            <div class="info-block">
+              <h4>Contact & Support:</h4>
+              <div class="contact-info">
+                <p>📧 <strong>Email:</strong> ecell-student-rep@csmu.ac.in</p>
+                <p>🌐 <strong>Website:</strong> www.iiec.in/techastra.html</p>
+              </div>
+            </div>
+
+            <div class="info-block">
+              <h4>Follow Us:</h4>
+              <div class="social-links">
+                <a href="https://www.instagram.com/techastra.csmu" title="Instagram">📷 Instagram</a>
+                <a href="https://www.linkedin.com/company/iiec-csmu/" title="LinkedIn">💼 LinkedIn</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Registration Form -->
+      <div class="form-wrapper">
+        <div class="arc-reactor-glow"></div>
+        
+        <form class="registration-form" id="registrationForm">
+            <h2>Registration Form</h2>
+            
+            <!-- Personal Information -->
+            <div class="form-section">
+              <h3 class="section-title">Personal Information</h3>
+              
+              <div class="form-group">
+                <label for="fullName">Full Name *</label>
+                <input type="text" id="fullName" name="fullName" required placeholder="Tony Stark">
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email">Email Address *</label>
+                  <input type="email" id="email" name="email" required placeholder="tony@starkindustries.com">
+                </div>
+
+                <div class="form-group">
+                  <label for="phone">Phone Number *</label>
+                  <input type="tel" id="phone" name="phone" required placeholder="+91 98765 43210">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="college">College/University *</label>
+                  <input type="text" id="college" name="college" required placeholder="MIT">
+                </div>
+
+                <div class="form-group">
+                  <label for="year">Year of Study *</label>
+                  <select id="year" name="year" required>
+                    <option value="">Select Year</option>
+                    <option value="1">First Year</option>
+                    <option value="2">Second Year</option>
+                    <option value="3">Third Year</option>
+                    <option value="4">Fourth Year</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="branch">Branch/Department *</label>
+                <input type="text" id="branch" name="branch" required placeholder="Computer Science">
+              </div>
+            </div>
+
+            <!-- Event Selection -->
+            <div class="form-section">
+              <h3 class="section-title">Event Selection</h3>
+              
+              <div class="form-group">
+                <select id="participationEvent" name="participationEvent" required>
+                  <option value="">Select Event</option>
+                  <option value="Freefire"> Freefire </option>
+                  <option value="BGMI"> BGMI </option>
+                  <option value="Valorant"> Valorant </option>
+                  <option value="MUN"> MUN </option>
+                  <option value="ReelCrafter"> Reel crafter </option>
+                  <option value="CodeClash"> Code clash </option>
+                  <option value="RoboRace"> Robo Race </option>
+                  <option value="Webathon"> Webathon </option>
+                  <option value="ComputerScienceModel"> Computer Science Model </option>
+                  <option value="ProjectExhibition"> Project Exhibition </option>
+                  <option value="PosterMakingCompetition"> Poster Making Competition </option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="referral">How did you hear about us?</label>
+                <select id="referral" name="referral">
+                  <option value="">Select Option</option>
+                  <option value="social-media">Social Media</option>
+                  <option value="friend">Friend/Colleague</option>
+                  <option value="college">College/University</option>
+                  <option value="website">Website</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+            </div>
+          </form>
+
+        <!-- Terms and Register Button Section -->
+
+          <button type="submit" class="btn submit-btn" onclick="submitForm()">
+            <span class="btn-text">ASSEMBLE & REGISTER</span>
+            <span class="btn-glow"></span>
+          </button>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-bottom">
+      <p>&copy; 2026 TechAstra 3.0. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+
+    // Form validation and interaction
+    const form = document.getElementById('registrationForm');
+    const participationType = document.getElementById('participationType');
+
+    // Form submission function
+    function submitForm() {
+
+      // Validate form
+      if (!form.checkValidity()) {
+        form.reportValidity();
+        return false;
+      }
+
+
+      // Get form data
+      const formData = new FormData(form);
+
+      let requestBody = JSON.stringify(Object.fromEntries(formData));;
+      const scriptURL = 'https://hooks.zapier.com/hooks/catch/26477793/ucu1o1z/';
+      console.log(requestBody);
+
+      fetch(scriptURL, { method: 'POST',
+        mode: 'no-cors',
+        headers: {'Content-Type': 'application/json'}, body: requestBody })
+        .then(response => {
+          alert('Success!');
+          form.reset();
+        })
+        .catch(error => {
+          alert('Error!');
+        });
+      
+      // Show success message
+      alert('Registration Successful! Welcome to TechAstra 3.0, Avenger! 🎉\n\nYou will receive a confirmation email shortly.');
+      
+      // Reset form
+      form.reset();
+      
+      return false;
+    }
+
+    // Smooth scroll for navigation
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
